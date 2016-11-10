@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		710FEDC81DD4508600C4AA79 /* DyWeixin.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDC61DD4508600C4AA79 /* DyWeixin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		710FEDD21DD450B200C4AA79 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDCE1DD450B200C4AA79 /* libWeChatSDK.a */; };
-		710FEDD31DD450B200C4AA79 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDCF1DD450B200C4AA79 /* WechatAuthSDK.h */; };
-		710FEDD41DD450B200C4AA79 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDD01DD450B200C4AA79 /* WXApi.h */; };
-		710FEDD51DD450B200C4AA79 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDD11DD450B200C4AA79 /* WXApiObject.h */; };
+		710FEDD31DD450B200C4AA79 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDCF1DD450B200C4AA79 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FEDD41DD450B200C4AA79 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDD01DD450B200C4AA79 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FEDD51DD450B200C4AA79 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDD11DD450B200C4AA79 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		710FEDD81DD4523D00C4AA79 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDD71DD4523D00C4AA79 /* Security.framework */; };
 		710FEDDA1DD4524400C4AA79 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDD91DD4524400C4AA79 /* CoreTelephony.framework */; };
 		710FEDDC1DD4524C00C4AA79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDDB1DD4524C00C4AA79 /* SystemConfiguration.framework */; };
