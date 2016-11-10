@@ -12,6 +12,14 @@
 		710FEDD31DD450B200C4AA79 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDCF1DD450B200C4AA79 /* WechatAuthSDK.h */; };
 		710FEDD41DD450B200C4AA79 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDD01DD450B200C4AA79 /* WXApi.h */; };
 		710FEDD51DD450B200C4AA79 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDD11DD450B200C4AA79 /* WXApiObject.h */; };
+		710FEDD81DD4523D00C4AA79 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDD71DD4523D00C4AA79 /* Security.framework */; };
+		710FEDDA1DD4524400C4AA79 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDD91DD4524400C4AA79 /* CoreTelephony.framework */; };
+		710FEDDC1DD4524C00C4AA79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDDB1DD4524C00C4AA79 /* SystemConfiguration.framework */; };
+		710FEDDE1DD4525400C4AA79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDDD1DD4525400C4AA79 /* UIKit.framework */; };
+		710FEDE01DD4525A00C4AA79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDDF1DD4525A00C4AA79 /* Foundation.framework */; };
+		710FEDE21DD4526500C4AA79 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDE11DD4526500C4AA79 /* libz.tbd */; };
+		710FEDE41DD4526A00C4AA79 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDE31DD4526A00C4AA79 /* libc++.tbd */; };
+		710FEDE61DD4527100C4AA79 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDE51DD4527100C4AA79 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		710FEDCF1DD450B200C4AA79 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		710FEDD01DD450B200C4AA79 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		710FEDD11DD450B200C4AA79 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		710FEDD71DD4523D00C4AA79 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		710FEDD91DD4524400C4AA79 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		710FEDDB1DD4524C00C4AA79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		710FEDDD1DD4525400C4AA79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		710FEDDF1DD4525A00C4AA79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		710FEDE11DD4526500C4AA79 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		710FEDE31DD4526A00C4AA79 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		710FEDE51DD4527100C4AA79 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710FEDE61DD4527100C4AA79 /* libsqlite3.0.tbd in Frameworks */,
+				710FEDE41DD4526A00C4AA79 /* libc++.tbd in Frameworks */,
+				710FEDE21DD4526500C4AA79 /* libz.tbd in Frameworks */,
+				710FEDE01DD4525A00C4AA79 /* Foundation.framework in Frameworks */,
+				710FEDDE1DD4525400C4AA79 /* UIKit.framework in Frameworks */,
+				710FEDDC1DD4524C00C4AA79 /* SystemConfiguration.framework in Frameworks */,
+				710FEDDA1DD4524400C4AA79 /* CoreTelephony.framework in Frameworks */,
+				710FEDD81DD4523D00C4AA79 /* Security.framework in Frameworks */,
 				710FEDD21DD450B200C4AA79 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,6 +65,7 @@
 			children = (
 				710FEDC51DD4508600C4AA79 /* DyWeixin */,
 				710FEDC41DD4508600C4AA79 /* Products */,
+				710FEDD61DD4523D00C4AA79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +88,21 @@
 				710FEDC71DD4508600C4AA79 /* Info.plist */,
 			);
 			path = DyWeixin;
+			sourceTree = "<group>";
+		};
+		710FEDD61DD4523D00C4AA79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				710FEDE51DD4527100C4AA79 /* libsqlite3.0.tbd */,
+				710FEDE31DD4526A00C4AA79 /* libc++.tbd */,
+				710FEDE11DD4526500C4AA79 /* libz.tbd */,
+				710FEDDF1DD4525A00C4AA79 /* Foundation.framework */,
+				710FEDDD1DD4525400C4AA79 /* UIKit.framework */,
+				710FEDDB1DD4524C00C4AA79 /* SystemConfiguration.framework */,
+				710FEDD91DD4524400C4AA79 /* CoreTelephony.framework */,
+				710FEDD71DD4523D00C4AA79 /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +299,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/DyWeixin/libWeChatSDK.a";
 				INFOPLIST_FILE = DyWeixin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -266,6 +307,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DyWeixin",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = huangduyu.DyWeixin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -281,6 +323,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/DyWeixin/libWeChatSDK.a";
 				INFOPLIST_FILE = DyWeixin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -288,6 +331,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DyWeixin",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = huangduyu.DyWeixin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
