@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		710FEDC81DD4508600C4AA79 /* DyWeixin.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDC61DD4508600C4AA79 /* DyWeixin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FEDD21DD450B200C4AA79 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710FEDCE1DD450B200C4AA79 /* libWeChatSDK.a */; };
+		710FEDD31DD450B200C4AA79 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDCF1DD450B200C4AA79 /* WechatAuthSDK.h */; };
+		710FEDD41DD450B200C4AA79 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDD01DD450B200C4AA79 /* WXApi.h */; };
+		710FEDD51DD450B200C4AA79 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 710FEDD11DD450B200C4AA79 /* WXApiObject.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		710FEDC31DD4508600C4AA79 /* DyWeixin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DyWeixin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		710FEDC61DD4508600C4AA79 /* DyWeixin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DyWeixin.h; sourceTree = "<group>"; };
 		710FEDC71DD4508600C4AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710FEDCE1DD450B200C4AA79 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		710FEDCF1DD450B200C4AA79 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		710FEDD01DD450B200C4AA79 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		710FEDD11DD450B200C4AA79 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710FEDD21DD450B200C4AA79 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,10 @@
 		710FEDC51DD4508600C4AA79 /* DyWeixin */ = {
 			isa = PBXGroup;
 			children = (
+				710FEDCE1DD450B200C4AA79 /* libWeChatSDK.a */,
+				710FEDCF1DD450B200C4AA79 /* WechatAuthSDK.h */,
+				710FEDD01DD450B200C4AA79 /* WXApi.h */,
+				710FEDD11DD450B200C4AA79 /* WXApiObject.h */,
 				710FEDC61DD4508600C4AA79 /* DyWeixin.h */,
 				710FEDC71DD4508600C4AA79 /* Info.plist */,
 			);
@@ -59,7 +72,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710FEDD41DD450B200C4AA79 /* WXApi.h in Headers */,
 				710FEDC81DD4508600C4AA79 /* DyWeixin.h in Headers */,
+				710FEDD31DD450B200C4AA79 /* WechatAuthSDK.h in Headers */,
+				710FEDD51DD450B200C4AA79 /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +262,10 @@
 				INFOPLIST_FILE = DyWeixin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DyWeixin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = huangduyu.DyWeixin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -264,6 +284,10 @@
 				INFOPLIST_FILE = DyWeixin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DyWeixin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = huangduyu.DyWeixin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
