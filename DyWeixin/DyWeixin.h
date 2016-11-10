@@ -15,5 +15,7 @@ FOUNDATION_EXPORT double DyWeixinVersionNumber;
 FOUNDATION_EXPORT const unsigned char DyWeixinVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DyWeixin/PublicHeader.h>
-
+#import <DyWeixin/WXApi.h>
+#import <DyWeixin/WXApiObject.h>
+#import <DyWeixin/WechatAuthSDK.h>
 
